@@ -1,0 +1,512 @@
+alert_name,smarts
+(poly(azo(anthracene)),"c12:[c,n]:[c,n]:[c,n]:[c,n]:c1[c,n]c3:[c,n]:[c,n]:[c,n]:[c,n]:c3[c,n]2"
+(poly(azo(phenanthrene)),"c12:[c,n]:[c,n]:[c,n]:[c,n]:c1:[c,n]:[c,n]:c3:[c,n]:[c,n]:[c,n]:[c,n]:c23"
+"2,3,4trihydroxyphenyl",c([OH])c([OH])c([OH])
+"2,4,5trihydroxyphenyl",c([OH])c([OH])cc([OH])
+2-halo pyridine,"n1c([F,Cl,Br,I])cccc1"
+2-halopyridine,"[F,Cl,Br][c]1:[c,n]:[c,n]:[c,n]:[c,n]:[n]1"
+2halo_pyrazine_3EWG,"[#7;R1]1[#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#7][#6][#6]1"
+2halo_pyrazine_5EWG,"[#7;R1]1[#6]([F,Cl,Br,I])[#6;!$(c-N)][#7][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6;!$(c-N)]1"
+2halo_pyridazine_3EWG,"[#7;R1]1[#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6][#6][#7]1"
+2halo_pyridazine_5EWG,"[#7;R1]1[#6]([F,Cl,Br,I])[#6][#6][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#7]1"
+2halo_pyridine_3EWG,"[#7;R1]1[#6;!$(c=O)]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6;!$(c-N)][#6][#6;!$(c-N)]1"
+2halo_pyridine_5EWG,"[#7;R1]1[#6;!$(c=O)]([F,Cl,Br,I])[#6][#6;!$(c-N)][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6;!$(c=O);!$(c-N)]1"
+2halo_pyrimidine_5EWG,"[#7;R1]1[#6]([F,Cl,Br,I])[#7][#6][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]1"
+3halo_pyridazine_2EWG,"[#7;R1]1[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]([F,Cl,Br,I])[#6][#6][#7]1"
+3halo_pyridazine_4EWG,"[#7;R1]1[#6][#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6][#7]1"
+4-halopyridine,"[F,Cl,Br][c]1:[c,n]:[c,n]:[n]:[c,n]:[c,n]1"
+4_pyridone_3_5_EWG,"[#7,#8,#16]1~[#6;H]~[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])~[#6](=O)~[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])~[#6;H]1"
+4halo_pyridine_3EWG,"[#7;R1]1[#6;!$(c=O);!$(c-N)][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]([F,Cl,Br,I])[#6][#6;!$(c=O);!$(c-N)]1"
+4halo_pyrimidine_5EWG,"[#7]1[#6][#7;R1][#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]1"
+> 2 ester groups,"C(=O)O[C,H1].C(=O)O[C,H1].C(=O)O[C,H1]"
+Aliphatic long chain,[R0;D2][R0;D2][R0;D2][R0;D2]
+Azide,N=N=N
+Azido group,N=[N+]=[N-]
+Azo,N=N
+Azo group,N#N
+Beta halo carbonyl,"O=CCC[F,Cl,Br,I]"
+CH2_S#O_3_ring,"[CH2]1[O,S]C1"
+Carbocation/anion,"[C+,c+,C-,c-]"
+Dipeptide,*-C(=O)-&!@[NH]-C-&!@C(=O)-&!@[NH]-*
+Dye 1 (1),"c1cccc(C(=O)[C,c]([#7])=,:[C,c]([#7])C2(=O))c12"
+Dye 11,"*=,:[#6]C([#6]=,:*)[#6]=,:*"
+Dye 16 (1),c([N+](=O)[O-])
+Dye 2,OCccCO
+Dye 22,NS(=O)(=O)c1cccc([#7])c1
+Dye 25,acC=&!@Cca
+Dye 26,c1ccccc1-n2nnnc2[CH2]*
+Dye 29,"O=[N+](-[O-])-caac-[$(N(C)C),$([NH]C),$([NH2])]"
+Dye 31,a1aaac2ac3acac4aaac(c34)c12
+Dye 32,"c1cccc2C(=O)C(C:,=*)C(=O)c12"
+Dye 4,c12ccccc1C(=O)c3ccccc3C2=O
+Dye 6,c12cccc(C(=O)C(ca)C(=O)3)c2c3ccc1
+Dye 7,"N=C1[#6]:,=[#6]C(=[C,N])[#6]:,=[#6]1"
+Dye 8,c12cccc(C(=O)N(-&!@C)C(=O)3)c2c3ccc1
+Dye 9,[a]c-[*]=&!@[*]-&!@C(=O)-&!@c[a]
+Ester,[#6]-C(=O)O-[#6]
+HOBT ester,C(=O)Onnn
+HOBT_ester,"O=C(-[!N])O[$(nnn),$([#7]-[#7]=[#7])]"
+Hetero_hetero,"*[N,S,O]-&!@[N,S,O][#6]"
+Heteroaryl sulfonate,"a-S(=O)(=O)-O[$([a&!#6]),$(c[a&!#6]),$(cc[a&!#6]),$(ccc[a&!#6]),$(cccc[a&!#6]),$(ccccc[a&!#6])]"
+I1 Aliphatic methylene chains 7 or more long,[CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0]
+I10 Thiocyanate,SC#N
+I11 Benzylic quaternary Nitrogen,cC[N+]
+I12 Thioesters,"C[O,S;R0][C;R0](=S)"
+I13 Cyanamides,N[CH2]C#N
+I14 Four membered lactones,C1(=O)OCC1
+I15 Di and Triphosphates,P(=O)([OH])OP(=O)[OH]
+I16 Betalactams,N1CCC1=O
+I2 Compounds with 4 or more acidic groups,"[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH]"
+I3 Crown ethers,[O;R1][C;R1][C;R1][O;R1][C;R1][C;R1][O;R1]
+I4 Disulphides,SS
+I5 Thiols,[SH]
+"I6 Epoxides, Thioepoxides, Aziridines","C1[O,S,N]C1"
+"I7 2,4,5 trihydroxyphenyl",c([OH])c([OH])c([OH])
+"I8 2,3,4 trihydroxyphenyl",c([OH])c([OH])cc([OH])
+I9 Hydrazothiourea,N=NC(=S)N
+Imine 3,C=[NH]
+Ketone,[#6]-C(=O)-[#6]
+Lawesson reagent derivatives,P(=S)(S)S
+Long aliphatic chain,"[N,C,S,O]!@[N,C,S,O]!@[N,C,S,O]!@[N,C,S,O]!@[N,C,S,O]!@[N,C,S,O]!@[N,C,S,O]"
+Michael acceptor,"C=!@CC=[O,S]"
+Michael acceptor,"[$([CH]),$(CC)]#CC(=O)[C,c]"
+Michael acceptor,"[$([CH]),$(CC)]#CS(=O)(=O)[C,c]"
+Michael acceptor,C=C(C=O)C=O
+Michael acceptor,"[$([CH]),$(CC)]#CC(=O)O[C,c]"
+Michael acceptor 6,"[#6,#7]-&!@[#6](=&!@[CH])-&!@C(=O)-&!@[C,N,O,S]"
+N oxide,"[NX2,nX3][OX1]"
+N-C-halo,"NC[F,Cl,Br,I]"
+"N-acyl-2-amino-5-mercapto-1,3,4-thiadiazole",s1c(S)nnc1NC=O
+N-halo,"[NX3,NX4][F,Cl,Br,I]"
+N-hydroxyl pyridine,n[OH]
+N-nitroso,[#7]-N=O
+N1 Quinones,O=C1[#6]~[#6]C(=O)[#6]~[#6]1
+N2 Polyenes,C=CC=CC=CC=C
+N3 Saponin derivatives,O1CCCCC1OC2CCC3CCCCC3C2
+N4 Cytochalasin derivatives,O=C1NCC2CCCCC21
+N5 Cycloheximide derivatives,O=C1CCCC(N1)=O
+N6 Monensin derivatives,O1CCCCC1C2CCCO2
+N8 Squalestatin derivatives,C12OCCC(O1)CC2
+NO_phosphonate,P(=O)ON
+Oxalyl,O=C-&!@C=O
+Oxygen-nitrogen single bond,"[OR0,NR0][OR0,NR0]"
+P/S halide,"[P,S][F,Cl,Br,I]"
+Perhalo_ketone,"O=CC(-[F,Cl,Br,I])([F,Cl,Br,I])-[F,Cl,Br,I]"
+Phenalene,c1(c)c2c(c)cccc2ccc1
+Phosphoric acid,[OH]-P(=O)(-O)-*
+Phosphoric ester,COP(=O)(-*)O
+Polycyclic aromatic hydrocarbon,a21aa3a(aa1aaaa2)aaaa3
+Polycyclic aromatic hydrocarbon,a31a(a2a(aa1)aaaa2)aaaa3
+R1 Reactive alkyl halides,"[Br,Cl,I][CX4;CH,CH2]"
+R10 esters of HOBT,C(=O)Onnn
+R11 Isocyanates & Isothiocyanates,"N=C=[S,O]"
+R12 Triflates,OS(=O)(=O)C(F)(F)F
+R13 lawesson's reagent and derivatives,P(=S)(S)S
+R14 phosphoramides,NP(=O)(N)N
+R15 Aromatic azides,cN=[N+]=[N-]
+R16 beta carbonyl quaternary Nitrogen,"C(=O)C[N+,n+]"
+R17 acylhydrazide,[N;R0][N;R0]C(=O)
+"R18 Quaternary C, Cl, I, P or S","[C+,Cl+,I+,P+,S+]"
+R19 Phosphoranes,C=P
+R2 Acid halides,"[S,C](=[O,S])[F,Br,Cl,I]"
+R20 Chloramidines,[Cl]C([C&R0])=N
+R21 Nitroso,[N&D2](=O)
+R22 P/S Halides,"[P,S][Cl,Br,F,I]"
+R23 Carbodiimide,N=C=N
+R24 Isonitrile,[N+]#[C-]
+R25 Triacyloximes,C(=O)N(C(=O))OC(=O)
+R26 Cyanohydrins,N#CC[OH]
+R27 Acyl cyanides,N#CC(=O)
+R3 Carbazides,O=CN=[N+]=[N-]
+R30 Azocyanamides,[N;R0]=[N;R0]C#N
+R31 Azoalkanals,[N;R0]=[N;R0]CC=O
+R4 Sulphate esters,"COS(=O)O[C,c]"
+R5 Sulphonates,"COS(=O)(=O)[C,c]"
+R6 Acid anhydrides,C(=O)OC(=O)
+R7 Peroxides,OO
+R8 Pentafluorophenyl esters,C(=O)Oc1c(F)c(F)c(F)c(F)c1(F)
+R9 Paranitrophenyl esters,C(=O)Oc1ccc(N(=O)~[OX1])cc1
+Sulfonic acid,"[C,c]S(=O)(=O)O[C,c]"
+Sulfonic acid,"S(=O)(=O)[O-,OH]"
+Sulfonic acid,[OH]-S(=O)(=O)-*
+Sulphur-nitrogen single bond,[SX2H0][N]
+Thiobenzothiazole,c12ccccc1(SC(S)=N2)
+Thiocarbonyl group,"[C,c]=S"
+Three-membered heterocycle,"*1[O,S,N]*1"
+Triphenylphosphine,a-P(-a)-a
+Unbranched chain,"[$([A&D2]),$([A&D1])]!@[A&D2]!@[A&D2]!@[A&D2]!@[A&D2]!@[$([A&D2]),$([A&D1])]"
+acetal,[#6]-O[CH1](-[#6])O-[#6]
+acid halide,"[S,C](=[O,S])[F,Br,Cl,I]"
+acid halide,"C(=O)[Cl,Br,I,F]"
+acrylate,[CH2]=[C;!$(C-N);!$(C-O)]C(=O)
+activated_4mem_ring,"[#6]1~[$(C(=O)),$(S(=O))]~[O,S,N]~[$(C(=O)),$(S(=O))]1"
+activated_S#O_3_ring,"C1~[O,S]~[C,N,O,S]1[a,N,O,S]"
+activated_acetylene,"[$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))]C#[C;!$(C-N);!$(C-n)]"
+activated_diazo,"[N;!R]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])=[N;!R]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])"
+activated_vinyl_ester,"O=COC=[$(C(S(=O)(=O))),$(C(C(F)(F)(F))),$(C(C#N)),$(C(N(=O)(=O))),$(C([N+](=O)[O-])),$(C(C(=O)));!$(C(N))]"
+activated_vinyl_sulfonate,"O(-S(=O)(=O))C=[$(C(S(=O)(=O))),$(C(C(F)(F)(F))),$(C(C#N)),$(C(N(=O)(=O))),$(C([N+](=O)[O-])),$(C(C(=O)));!$(C(N))]"
+acyclic C=C-O,C=[C!r]O
+acyclic_imide,"[C,c][C;!R](=O)[N;!R][C;!R](=O)[C,c]"
+acyl cyanide,N#CC(=O)
+acyl hydrazine,[N;R0][N;R0]C(=O)
+acyl hydrazine,C(=O)N[NH2]
+acyl_123_triazole,[#7;R1]1~[#7;R1]~[#7;R1](-C(=O))~[#6]~[#6]1
+acyl_134_triazole,[#7]1~[#7]~[#6]~[#7](-C(=O)[!N])~[#6]1
+acyl_activated_NO,"O=C(-[!N])O[$([#7;+]),$(N(C=[O,S,N])(C=[O,S,N]))]"
+acyl_cyanide,C(=O)-C#N
+acyl_het_A(9),[#7+](:[!#1]:[!#1]:[!#1])-[!#1]=[#8]
+acyl_imidazole,"[C;!$(C-N)](=O)[#7]1[#6;H1,$([#6]([*;!R]))][#7][#6;H1,$([#6]([*;!R]))][#6;H1,$([#6]([*;!R]))]1"
+acyl_pyrazole,"[C;!$(C-N)](=O)[#7]1[#7][#6;H1,$([#6]([*;!R]))][#6;H1,$([#6]([*;!R]))][#6;H1,$([#6]([*;!R]))]1"
+aldehyde,"[C,c][C;H1](=O)"
+aldehyde,[#6]-[CH1]=O
+aldehyde,[CH1](=O)
+alkyl halide,"[CX4][Cl,Br,I]"
+alkyl halide,"[Br,Cl,I][CX4,CH,CH2,CH3]"
+alkynyl michael acceptor1,"[#6]-C#CC(=O)[#6,#7,#8]"
+alkynyl michael acceptor2,"[CH1]#CC(=O)-[#6,#7,#8]"
+allene,*=C=*
+alpha_dicarbonyl,C(=O)!@C(=O)
+alpha_halo_EWG,"[$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-])]-[CH,CH2]-[Cl,Br,I,$(O(S(=O)(=O)))]"
+alpha_halo_amine,"[F,Cl,Br,I,$(O(S(=O)(=O)))]-[CH,CH2;!$(C(F)F)]-[N,n]"
+alpha_halo_carbonyl,"C(=O)([CH,CH2][Cl,Br,I,$(O(S(=O)(=O)))])"
+alpha_halo_heteroatom,"[N,n,O,S;!$(S(=O)(=O))]-[CH,CH2;!$(C(F)F)][F,Cl,Br,I,$(O(S(=O)(=O)))]"
+alpha_halo_heteroatom_tert,"[N,n,O,S;!$(S(=O)(=O))]-C([Cl,Br,I,$(O(S(=O)(=O)))])(C)(C)"
+amidotetrazole,c1nnnn1C=O
+amino_acridine_A(1),c:1:c:c:c:c:2:c:1:c:c:3:c(:n:2):n:c:4:c(:c:3-[#7]):c:c:c:c:4
+amino_acridine_A(46),c:1:c:2:c(:c:c:c:1):n:c:3:c(:c:2-[#7]):c:c:c:c:3
+anhydride,"[$(C(=O)),$(C(=S))]-[O,S]-[$(C(=O)),$(C(=S)),$(C(=[N;!R])),$(C(=N(-[C;X4])))]"
+anhydride,C(=O)OC(=O)
+anil_alk_ene(51),c:1:c:c-2:c(:c:c:1)-[#6]-3-[#6](-[#6]-[#7]-2)-[#6]-[#6]=[#6]-3
+anil_alk_indane(1),c:1(:c:c-3:c(:c:c:1)-[#7]-[#6]-4-c:2:c:c:c:c:c:2-[#6]-[#6]-3-4)-[#6;X4]
+anil_di_alk_B(251),c:1:c:c(:c:c:c:1-[#7](-[#6;X4])-[#6;X4])-[#6]=[#6]
+anil_di_alk_C(246),"c:1:c:c(:c:c:c:1-[#8]-[#6;X4])-[#7;$([#7!H0]-[#6;X4]),$([#7](-[#6;X4])-[#6;X4])]"
+anil_di_alk_D(198),"c:1:c:c(:c:c:c:1-[#7](-[#6;X4])-[#6;X4])-[#6;X4]-[$([#8]-[#1]),$([#6]=[#6]-[#1]),$([#7](-[#6X4])-[#6;X4])]"
+anil_di_alk_F(14),"c:1:c:c(:c:c:c:1-[#6;X4]-c:2:c:c:c(:c:c:2)-[#7&H2,$([#7;!H0]-[#6;X4]),$([#7](-[#6X4])-[#6X4])])-[#7&H2,$([#7;!H0]-[#6;X4]),$([#7](-[#6X4])-[#6X4])]"
+aniline,c1cc([NH2])ccc1
+anthranil_one_A(38),"c:1:c:c:c:c(:c:1-[#7&!H0;!H1,!$([#7]-[#6]=[#8])])-[#6](-[#6]:[#6])=[#8]"
+any carbazide,O=*N=[N+]=[N-]
+aromatic Sulfonic ester,"[#6,#7]-S(=O)(=O)Oc"
+aromatic azide,cN=[N+]=[N-]
+aryl_phosphonate,P(=O)-[O;!R]-a
+aryl_thiocarbonyl,a-[S;X2;!R]-[C;!R](=O)
+azide,"[$(N#[N+]-[N-]),$([N-]=[N+]=N)]"
+aziridine_diazirine,"[C,N]1~[C,N]~N~1"
+azo_A(324),[#7;!R]=[#7]
+azo_amino,[N]=[N;!R]-[N]
+azo_aryl,c[N;!R;!+]=[N;!R;!+]-c
+azo_filter2,[N;!$(N-S(=O)(=O));!$(N-C=O)]-[N;!r3;!$(N-S(=O)(=O));!$(N-C=O)]-[N;!$(N-S(=O)(=O));!$(N-C=O)]
+azo_filter3,[N;!R]-[N;!R]-[N;!R]
+azoalkanal,[N;R0]=[N;R0]CC=O
+azocyanamide,[N;R0]=[N;R0]C#N
+b-carbonyl quaternary nitrogen,"C(=O)CC[N+,n+]"
+b-lactam,N1CCC1=O
+bad_boron,"[B-,BH2,BH3,$(B(F)(F))]"
+bad_cations,"[C+,F+,Cl+,Br+,I+,Se+]"
+benzhydrol,[OH1]-C(-c1ccccc1)c2ccccc2
+benzidine_like,c([N;!+])1ccc(c2ccc([N;!+])cc2)cc1
+benzylic quaternary nitrogen,cC[N+]
+beta-keto/anhydride,"[C,c](=O)[CX4,CR0X3,O][C,c](=O)"
+beta_lactone,"[#6,#15,#16]1(=O)~[#6]~[#6]~[#8,#16]1"
+betalactam,C1(=O)~[#6]~[#6]N1
+betalactam_EWG,"C1(=O)~[#6]~[#6]N1([$(S(=O)(=O)[C,c,O&D2]),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)[C,c,O&D2])])"
+biotin analogue,C12C(NC(N1)=O)CSC2
+bis_activated_aryl_ester,"O=[C,S]Oc1aaa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])1"
+bis_keto_olefin,"CC(=O)[$([C&H1]),$(C-F),$(C-Cl),$(C-Br),$(C-I)]=[$([C&H1]),$(C-F),$(C-Cl),$(C-Br),$(C-I)]C(=O)C"
+boron_warhead,"[C,c]~[#5]"
+branched_polycyclic_aromatic,a1(a2aa(a3aaaaa3)aa(a4aaaaa4)a2)aaaaa1
+carbodiimide_iso#thio#cyanate,"N=C=[N,O,S]"
+carbonyl_halide,"O=C[F,Cl,Br,I]"
+catechol,"c1c([OH])c([OH,NH2,NH])ccc1"
+charged oxygen or sulfur atoms,"[O+,o+,S+,s+]"
+chinone,"C1(=[O,N])C=CC(=[O,N])C=C1"
+chinone,"C1(=[O,N])C(=[O,N])C=CC=C1"
+chloramidine,[Cl]C([C&R0])=N
+conjugated nitrile group,C=[C!r]C#N
+contains_metal,"[$([Ru]),$([Rh]),$([Se]),$([Pd]),$([Sc]),$([Bi]),$([Sb]),$([Ag]),$([Ti]),$([Al]),$([Cd]),$([V]),$([In]),$([Cr]),$([Sn]),$([Mn]),$([La]),$([Fe]),$([Er]),$([Tm]),$([Yb]),$([Lu]),$([Hf]),$([Ta]),$([W]),$([Re]),$([Co]),$([Os]),$([Ni]),$([Ir]),$([Cu]),$([Zn]),$([Ga]),$([Ge]),$([As]),$([Y]),$([Zr]),$([Nb]),$([Ce]),$([Pr]),$([Nd]),$([Sm]),$([Eu]),$([Gd]),$([Tb]),$([Dy]),$([Ho]),$([Pt]),$([Au]),$([Hg]),$([Tl]),$([Pb]),$([Ac]),$([Th]),$([Pa]),$([Mo]),$([U]),$([Tc]),$([Te]),$([Po]),$([At])]"
+coumarin_C(1),"[#6]-,:2(-,:[#6]=,:[#7]-,:c:1:c:c(:c:c:c:1-,:[#8]-,:2)-[Cl])=[#8]"
+crown ether,"[OR2,NR2]@[CR2]@[CR2]@[OR2,NR2]@[CR2]@[CR2]@[OR2,NR2]"
+crown ether,[O;R1][C;R1][C;R1][O;R1][C;R1][C;R1][O;R1]
+crown_ether,"[$([O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18]),$([O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18]),$([O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18])]"
+cumarine,c1ccc2c(c1)ccc(=O)o2
+cyanamide,N[CH2]C#N
+cyanate/aminonitrile/thiocyanate,"[N,O,S]C#N"
+cyano_cyano_A(23),"[#6](-[#6]#[#7])(-[#6]#[#7])-[#6](-[$([#6]#[#7]),$([#6]=[#7])])-[#6]#[#7]"
+cyano_misc_A(1),c:2(:c:1:c:c:c:c:c:1:n:n:c:2)-[#6](-[#6]:[#6])-[#6]#[#7]
+cyano_pyridone_B(27),"[#6]-,:1(=,:[#6](-,:[#6](=[#8])-,:[#7]-,:[#6](=,:[#7]-,:1)-,:[!#6&!#1])-[#6]#[#7])-[#6]"
+cyano_pyridone_D(5),"[#8]=[#6]-,:1-,:[#6](=,:[#6]-,:[#6](=,:[#7]-,:[#7]-,:1)-,:[#6]=[#8])-[#6]#[#7]"
+cyano_pyridone_F(3),"[#7]-,:2(-c:1:c:c:c:c:c:1)-,:[#6](=[#8])-,:[#6](=,:[#6]-,:[#6](=,:[#7]-,:2)-[#6]#[#7])-[#6]#[#7]"
+cyanohydrin,"[C;X4](-[OH,NH1,NH2,SH])(-C#N)"
+cyanohydrin,N#CC[OH]
+cyanohydrins,N#CC[OH]
+cycloheptane,[CR2]1[CR2][CR2][CR2][CR2][CR2][CR2]1
+cycloheptane,[CR2]1[CR2][CR2]cc[CR2][CR2]1
+cycloheximide,O=C1CCCC(N1)=O
+cyclooctane,[CR2]1[CR2][CR2][CR2][CR2][CR2][CR2][CR2]1
+cyclooctane,[CR2]1[CR2][CR2]cc[CR2][CR2][CR2]1
+cytochalasin,O=C1NCC2CCCCC21
+di/triphosphate,P(=O)([OH])OP(=O)[OH]
+diamino_sulfide,"[N,n]~[S;!R;D2]~[N,n]"
+diaminobenzene,"[cR2]1[cR2]c([N+0X3R0,nX3R0])c([N+0X3R0,nX3R0])[cR2][cR2]1"
+diaminobenzene,"[cR2]1[cR2]c([N+0X3R0,nX3R0])[cR2][cR2]c1([N+0X3R0,nX3R0])"
+diazo group,[N!R]=[N!R]
+diazo_carbonyl,"[$(N=N=C~C=O),$(N#N-C~C=O)]"
+diazonium,a[N+]#N
+diazox_A(3),[#8](-c:1:c:c:c:c:c:1)-c:3:c:c:2:n:o:n:c:2:c:c:3
+diazox_B(3),[Cl]-c:2:c:c:1:n:o:n:c:1:c:c:2
+diazox_sulfon_A(36),"[#7](-c:1:c:c:c:c:c:1)-[#16](=[#8])(=[#8])-[#6]:2:[#6]:[#6]:[#6]:[#6]:3:[#7]:[$([#8]),$([#16])]:[#7]:[#6]:2:3"
+dicarbonyl_sulfonamide,"[$(N(-C(=O))(-C(=O))(-S(=O))),$(n([#6](=O))([#6](=O))([#16](=O)))]"
+dihydroxybenzene,[OH1]c1ccc([OH1])cc1
+diketo group,"[C,c](=O)[C,c](=O)"
+disulfide,SS
+disulfide_acyclic,[S;!R;X2]-[S;!R;X2]
+disulphide,SS
+enamine,[CX2R0][NX3R0]
+ene_cyano_A(19),[#6](-[#6]#[#7])(-[#6]#[#7])=[#6]-c:1:c:c:c:c:c:1
+ene_cyano_D(3),[#6](-[#6]#[#7])(-[#6]#[#7])=[#6](-[#16])-[#16]
+ene_five_het_A(201),[#6]-1(=[#6])-[#6]=[#7]-[!#6&!#1]-[#6]-1=[#8]
+ene_five_het_B(90),[#6]-1(=[#6])-[#6](-[#7]=[#6]-[#16]-1)=[#8]
+ene_five_het_C(85),[#6]-1(-[#6](-[#6]=[#6]-[!#6&!#1]-1)=[#6])=[!#6&!#1]
+ene_five_het_D(46),[#6]-1(=[#6])-[#6](=[#8])-[#7]-[#7]-[#6]-1=[#8]
+ene_five_het_E(44),[#7]-[#6]=!@[#6]-2-[#6](=[#8])-c:1:c:c:c:c:c:1-[!#6&!#1]-2
+ene_five_het_H(6),[#7]-1=[#6]-[#6](-[#6](-[#7]-1)=[#16])=[#6]
+ene_five_het_M(3),"[#6]-1=,:[#6]-[#6](-[#6](-[$([#8]),$([#16])]-1)=[#6]-[#6]=[#8])=[#8]"
+ene_five_one_A(55),c:1-2:c(:c:c:c:c:1)-[#6](=[#8])-[#6](=[#6])-[#6]-2=[#8]
+ene_misc_A(5),[#6]-1=[#6]-[#6](-[#8]-[#6]-1-[#8])(-[#8])-[#6]
+ene_one_ene_A(57),[#6]=!@[#6](-[!#1])-@[#6](=!@[!#6&!#1])-@[#6](=!@[#6])-[!#1]
+ene_one_hal(17),"[#6]-[#6]=[#6](-[F,Cl,Br,I])-[#6](=[#8])-[#6]"
+ene_one_yne_A(1),[#6]#[#6]-[#6](=[#8])-[#6]#[#6]
+ene_rhod_A(235),[#7]-1-[#6](=[#16])-[#16]-[#6](=[#6])-[#6]-1=[#8]
+"epoxide, aziridine, thioepoxide","C1[O,S,N]C1"
+ester of HOBT,C(=O)Onnn
+flavanoid,O=C2CC(a3aaaaa3)Oa1aaaaa12
+four member lactones,C1(=O)OCC1
+four_nitriles,C#N.C#N.C#N.C#N
+gte_10_carbon_sb_chain,[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]
+gte_2_N_quats,"[N,n;H0;+;!$(N~O);!$(n~O)].[N,n;H0;+;!$(N~O);!$(n~O)]"
+gte_2_free_phos,P([O;D1])=O.P([O;D1])=O
+gte_2_sulfonic_acid,"[C,c]S(=O)(=O)[O;D1].[C,c]S(=O)(=O)[O;D1]"
+gte_3_COOH,C(=O)[O;D1].C(=O)[O;D1].C(=O)[O;D1]
+gte_3_iodine,[#53].[#53].[#53]
+gte_4_basic_N,"[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(Nc)].[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(Nc)].[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(Nc)].[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(N-c)]"
+gte_4_nitro,"[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)]"
+gte_5_phenolic_OH,a[O;D1].a[O;D1].a[O;D1].a[O;D1].a[O;D1]
+gte_7_aliphatic_OH,C[O;D1].C[O;D1].C[O;D1].C[O;D1].C[O;D1].C[O;D1].C[O;D1]
+gte_7_total_hal,"[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I]"
+gte_8_CF2_or_CH2,"[CH2,$(C(F)F);R0][CH2,$(C(F)F);R0][CH2,$(C(F)F);R0][CH2,$(C(F)F);R0][CH2,$(C(F)F);R0][CH2,$(C(F)F);R0][CH2,$(C(F)F);R0][CH2,$(C(F)F);R0]"
+halo_5heterocycle_bis_EWG,"[#7,#8,#16]1[#6]([$(S(=O)(=O)),$([F,Cl]),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])[#6]([$(S(=O)(=O)),$([F,Cl]),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])[#7][#6]1([Cl,Br,I])"
+halo_acrylate,"[$([C;H2]),$([C&H1;$(C-F)]),$([C&H1;$(C-Cl)]),$([C&H1;$(C-Br)]),$([C&H1;$(CI)]),$(C(F)F),$(C(Cl)Cl),$(C(Br)Br),$(C(I)I),$(C(F)Cl),$(C(F)Br),$(C(F)I),$(C(Cl)Br),$(C(Br)I)](=[$([C&H1;$(C(-C(=O)))]),$(C(F)(C(=O))),$(C(Cl)(C(=O))),$(C(Br)(C(=O))),$(C(I)(C(=O))),$(C(C)(C(=O))),$(C(c)(C(=O)))])"
+halo_imino,"C(=[#7])([Cl,Br,I,$(O(S(=O)(=O)))])"
+halo_olefin_bis_EWG,"C([Cl,Br,I,$(O(S(=O)(=O)))])=C([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])"
+halo_phenolic_carbonyl,"C(=O)Oc1c([Cl,F])[cH1,$(c[F,Cl])]c([F,Cl])[cH1,$(c[F,Cl])]c1([F,Cl])"
+halo_phenolic_sulfonyl,"S(=O)Oc1c([Cl,F])[cH1,$(c[F,Cl])]c([F,Cl])[cH1,$(c[F,Cl])]c1([F,Cl])"
+halogen_heteroatom,"[!C;!c;!H][F,Cl,Br,I]"
+halogenated ring,"c1cc([Cl,Br,I,F])cc([Cl,Br,I,F])c1[Cl,Br,I,F]"
+halogenated ring,"c1ccc([Cl,Br,I,F])c([Cl,Br,I,F])c1[Cl,Br,I,F]"
+heavy metal,"[Hg,Fe,As,Sb,Zn,Se,se,Te,B,Si]"
+hemiacetal,[#6]-O[CH1](-[#6])[OH1]
+het-C-het not in ring,"[NX3R0,NX4R0,OR0,SX2R0][CX4][NX3R0,NX4R0,OR0,SX2R0]"
+het_465_misc(1),c:1-2:c:c-3:c(:c:c:1-[#8]-[#6]-[#8]-2)-[#6]-[#6]-3
+het_5_A(7),[#7]-2(-c:1:c:c:c:c:c:1)-[#7]=[#6](-[#6]=[#8])-[#6;X4]-[#6]-2=[#8]
+het_65_C(6),"n2c1ccccn1c(c2-[$([#6](-[!#1])=[#6](-[#1])-[#6]:[#6]),$([#6]:[#8]:[#6])])-[#7]-[#6]:[#6]"
+het_65_Da(2),n2nc(c1cccc1c2-[#6])-[#6]
+het_65_Db(5),c3cn1c(nc(c1-[#7]-[#6])-c:2:c:c:c:c:n:2)cc3
+het_65_I(1),n:1:2:c:c:c(:c:c:1:c:c(:c:2-[#6](=[#8])-[#6]:[#6])-[#6]:[#6])-[#6](~[#8])~[#8]
+het_65_K(1),n1nnnc2cccc12
+het_6666_A(2),c:2:c:c:1:n:c:3:c(:n:c:1:c:c:2):c:c:c:4:c:3:c:c:c:c:4
+het_666_A(5),[#7]-2-c:1:c:c:c:c:c:1-[#6](=[#7])-c:3:c-2:c:c:c:c:3
+het_pyridiniums_B(2),"[#6]:1:2:[!#1]:[#7+](:[!#1]:[#6;!H0,$([#6]-[*])](:[!#1]:1:[#6]:[#6]:[#6]:[#6]:2))~[#6]:[#6]"
+het_pyridiniums_C(1),[#6]~1~3~[#7](-[#6]:[#6])~[#6]~[#6]~[#6]~[#6]~1~[#6]~2~[#7]~[#6]~[#6]~[#6]~[#7+]~2~[#7]~3
+het_thio_5_imine_A(1),[#7]=[#6]-1-[#16]-[#6](=[#7])-[#7]=[#6]-1
+het_thio_656c(1),c:1:c(:c:c:c:c:1)-[#6]-4=[#7]-[#7]:2:[#6](:[#7+]:c:3:c:2:c:c:c:c:3)-[#16]-[#6;X4]-4
+het_thio_66_one(8),[#6](=[#8])-[#6]-1=[#6]-[#7]-c:2:c(-[#16]-1):c:c:c:c:2
+het_thio_6_ene(2),[#6]-1:[#6]-[#7]=[#6]-[#6](=[#6]-[#7]-[#6])-[#16]-1
+het_thio_N_5A(3),"[#7]=,:[#6]-,:1-,:[#7]=,:[#6]-,:[#7]-,:[#16]-,:1"
+het_thio_N_65A(3),"[#7]-,:2-,:[#16]-,:[#6]-1=,:[#6](-[#6]:[#6]-[#7]-[#6]-1)-,:[#6]-,:2=[#16]"
+hetero_silyl,[Si]~[!#6]
+hydantoin,C1NC(=O)NC(=O)1
+hydrazine,N[NH2]
+hydrazine,[N;X3;!$(N-S(=O)(=O));!$(N-C(F)(F)(F));!$(N-C#N);!$(N-C(=O));!$(N-C(=S));!$(N-C(=N))]-[N;X3;!$(N-S(=O)(=O));!$(N-C(F)(F)(F));!$(N-C#N);!$(N-C(=O));!$(N-C(=S));!$(N-C(=N))]
+hydrazine,[#6]-[NH]-[NH]-[#6]
+hydrazothiourea,[N;!R]=NC(=S)N
+hydrazothiourea,N=NC(=S)N
+hydroquinone,"[OH]c1ccc([OH,NH2,NH])cc1"
+hydroxamate_warhead,C([N;H1]([O;D1]))=O
+hydroxamic acid,C(=O)N[OH]
+hyperval_sulfur,"[$([#16&D3]),$([#16&D4])]=,:[#6]"
+imine,C=[N!R]
+imine,"N=[CR0][N,n,O,S]"
+imine 1,"[#6,#8,#16]-C(=[NH1])[#6,#8,#16]"
+imine2,"[#6,#8,#16]-[CH1]=[NH1]"
+imine_imine_A(9),c:1:c:c-2:c(:c:c:1)-[#7]=[#6]-[#6]-2=[#7;!R]
+imine_one_A(321),"[#6]-[#6](=[!#6&!#1;!R])-[#6](=[!#6&!#1;!R])-[$([#6]),$([#16](=[#8])=[#8])]"
+imine_one_fives(89),[#6]-1=[!#1]-[!#6&!#1]-[#6](-[#6]-1=[!#6&!#1;!R])=[#8]
+imine_one_fives_B(9),[#7;!R]=[#6]-2-[#6](=[#8])-c:1:c:c:c:c:c:1-[#16]-2
+imine_one_fives_D(1),[#6]-1(=[!#6&!#1])-[#6](-[#7]=[#6]-[#16]-1)=[#8]
+imine_one_isatin(189),[#8]=[#6]-2-[#6](=!@[#7]-[#7])-c:1:c:c:c:c:c:1-[#7]-2
+imine_one_sixes(27),[#6]-1(-[#6](=[#8])-[#7]-[#6](=[#8])-[#7]-[#6]-1=[#8])=[#7]
+iodine,I
+isocyanate,N=C=O
+isolated alkene,"[$([CH2]),$([CH][CX4]),$(C([CX4])[CX4])]=[$([CH2]),$([CH][CX4]),$(C([CX4])[CX4])]"
+isonitrile,[N+]#[C-]
+ketene,C=C=O
+keto_def_heterocycle,"[$(c([C;!R;!$(C-[N,O,S]);!$(C-[H])](=O))1naaaa1),$(c([C;!R;!$(C-[N,O,S]);!$(C-[H])](=O))1naa[n,s,o]1)]"
+keto_keto_beta_A(68),c:1-2:c(:c:c:c:c:1)-[#6](=[#8])-[#6;X4]-[#6]-2=[#8]
+keto_keto_beta_B(12),[#6;X4]-1-[#6](=[#8])-[#7]-[#7]-[#6]-1=[#8]
+keto_keto_gamma(5),[#8]=[#6]-1-[#6;X4]-[#6]-[#6](=[#8])-c:2:c:c:c:c:c-1:2
+keto_phenone_A(11),c:1:c-3:c(:c:c:c:1)-[#6]:2:[#7]:[!#1]:[#6]:[#6]:[#6]:2-[#6]-3=[#8]
+keto_phenone_B(1),c:1:c-3:c(:c:c:c:1)-[#6]-2=[#7]-[!#1]=[#6]-[#6]-[#6]-2-[#6]-3=[#8]
+linear_polycyclic_aromatic_I,"[$(a12aaaaa1aa3a(aa(aaaa4)a4a3)a2),$(a12aaaaa1aa3a(aaa4a3aaaa4)a2),$(a12aaaaa1a(aa5)a3a(aaa4a3a5aaa4)a2)]"
+linear_polycyclic_aromatic_II,"[$(a12aaaa4a1a3a(aaaa3aa4)aa2),$(a12aaaaa1a3a(aaa4a3aaaa4)aa2),$(a1(a(aaaa4)a4a3a2aaaa3)a2aaaa1)]"
+long chain hydrocarbon,[CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0]
+maleimide_etc,"[$([C;H1]),$(C(-[F,Cl,Br,I]))]1=[$([C;H1]),$(C(-[F,Cl,Br,I]))]C(=O)[N,O,S]C(=O)1"
+meldrums_acid_deriv,O=C1OC(C)(C)OC(C1)=O
+michael acceptor 5,N#CC(=C)C#N
+monensin,O1CCCCC1C2CCCO2
+monofluoroacetate,"[C;H2](F)C(=O)[O,N,S]"
+naphth_amino_A(25),"c:2:c:1:c:c:c:c-,:3:c:1:c(:c:c:2)-,:[#7]-,:[#6]=,:[#7]-,:3"
+naphth_amino_D(2),"c:2:c:1:c:c:c:c-,:3:c:1:c(:c:c:2)-,:[#7]-,:[#7]=,:[#7]-,:3"
+naphth_ene_one_C(1),c:2(:c:1:c:c:c:c-3:c:1:c(:c:c:2)-[#6]=[#6]-[#6]-3=[#7])-[#7]
+nitrate,[#6]-O-[N+](=O)[O-]
+nitro aromatic 2+,a-[N+](=O)[O-].a-[N+](=O)[O-]
+nitro group,[N+](=O)[O-]
+nitroalkane,C[N+](=O)[O-]
+nitrone,[C;!R]=[N+][O;D1]
+nitrosamine,N-[N;X2](=O)
+nitroso,[N&D2](=O)
+non_ring_CH2O_acetal,"[O,N,S;!$(S~O)]!@[CH2]!@[O,S,N;!$(S~O)]"
+non_ring_acetal,"[O,N,S;!$(S~O)]!@[C;H1;X4]!@[O,N,S;!$(S~O)]"
+non_ring_ketal,"[O,N,S;!$(S~O)]!@[C;H0;X4](!@[O,N,S;!$(S~O)])(C)"
+ortho_hydroiminoquinone,c1c([N;D1])c([N;D1])c[cH1][cH1]1
+ortho_hydroquinone,"a1c([O,S;D1])c([O,S;D1])a[cH1][cH1]1"
+ortho_nitrophenyl_carbonyl,"[#6]1(-O-[C;!R](=[O,N;!R]))[#6]([$(N(=O)(=O)),$([N+](=O)[O-])])[#6][#6][#6][#6]1"
+ortho_quinone,"[CH1,$(C(-[Cl,Br,I]))]1=CC(=[O,N,S;!R])C(=[O,N,S])C=[CH1,$(C(-[Cl,Br,I]))]1"
+oxaziridine,"C1~[O,S]~N1"
+oxime,"[C,c]=N[OH]"
+oxime,"[C,c]=NOC=O"
+oxime,[$(C=N[O;D1]);!$(C=[N+])][#6][#6]
+oxonium,"[o+,O+]"
+p-nitrophenyl ester,C(=O)Oc1ccc([N+]([O-])=O)cc1
+para_hydroiminoquinone,a1[cH1]c([N;D1])[cH1]ac([N;D1])1
+para_hydroquinone,"a1[cH1]c([O,S;D1])[cH1]ac([O,S;D1])1"
+para_nitrophenyl_ester,"[#6]1(-O(-[C;!R](-[!N])(=[O,N;!R])))[#6][#6][#6]([$(N(=O)(=O)),$([N+](=O)[O-])])[#6][#6]1"
+para_quinone,"[CH1,$(C(-[Cl,Br,I]))]1=[CH1,$(C(-[Cl,Br,I]))]C(=[O,N,S])[CH1,$(C(-[Cl,Br,I]))]=[CH1,$(C(-[Cl,Br,I]))]C1(=[O,N,S])"
+paraquat_like,[#6]1[#6][#6]([#6]2[#6][#6][#7;+][#6][#6]2)[#6][#6][#7;+]1
+pentafluorophenyl ester,C(=O)Oc1c(F)c(F)c(F)c(F)c1(F)
+pentafluorophenylester,C(=O)Oc1c(F)c(F)c(F)c(F)c1(F)
+perchloro_cp,C1(Cl)(Cl)C(Cl)C(Cl)=C(Cl)C1(Cl)
+perfluorinated chain,[CX4](F)(F)[CX4](F)F
+perhalo_dicarbonyl_phenyl,"c1(C=O)c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c1(C=O)"
+perhalo_phenyl,"c1c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c1([Br,Cl,I])"
+peroxide,OO
+peroxide,[#8]~[#8]
+phenol ester,c1ccccc1OC(=O)[#6]
+phenolate_bis_EWG,"O=[C,S]Oc1aaa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])1"
+phenyl carbonate,c1ccccc1OC(=O)O
+phos_serine_warhead,NC(COP(O)(O)=O)C(O)=O
+phos_threonine_warhead,NC(C(C)OP(O)(O)=O)C(O)=O
+phos_tyrosine_warhead,NC(Cc1ccc(OP(O)(O)=O)cc1)C(O)=O
+phosphite,"[c,C]-[P;v3]"
+phosphonium,[#15;+]~[!O]
+phosphor,P
+phosphoramide,NP(=O)(N)N
+phosphorane,C=P
+phosphorous_nitrogen_bond,"[#15]~[N,n]"
+phosphorus_phosphorus_bond,P~P
+phosphorus_sulfur_bond,P~S
+phthalimide,"[cR,CR]~C(=O)NC(=O)~[cR,CR]"
+polyacidic,"[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH]"
+polyene,[CR0]=[CR0][CR0]=[CR0]
+polyene,C=[C;!R][C;!R]=[C;!R][C;!R]=[C;!R]
+polyene,C=CC=CC=CC=C
+polyhalo_phenol_a,"c1c([O;D1])c(-[Cl,Br,I])c(-[Cl,Br,I])cc1.c1c([O;D1])c(-[Cl,Br,I])c(-[Cl,Br,I])cc1"
+polyhalo_phenol_b,"c1c([O;D1])c(-[Cl,Br,I])cc(-[Cl,Br,I])c1.c1c([O;D1])c(-[Cl,Br,I])cc(-[Cl,Br,I])c1"
+polyhalo_phenol_c,"c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1.c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1"
+polyhalo_phenol_d,"c(-[Cl,Br,I])1c([O;D1])c(-[Cl,Br,I])ccc1.c(-[Cl,Br,I])1c([O;D1])c(-[Cl,Br,I])ccc1"
+polyhalo_phenol_e,"c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1.c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1"
+polysulfide,[S;D2]-[S;D2]-[S;D2]
+porphyrin,"[#6;r16,r17,r18]~[#6]1~[#6]~[#6]~[#6](~[#6])~[#7]1"
+primary_halide_sulfate,"[CH2][Cl,Br,I,$(O(S(=O)(=O)[!$(N);!$([O&D1])]))]"
+propiolactone,C1(=O)OCC1
+pyrrole_H(3),n1-2cccc1-[#6]=[#7](-[#6])-[#6]-[#6]-2
+quat_N_N,"[N,n;R;+]!@[N,n]"
+quat_N_acyl,"[N,n;+]!@C(=O)"
+quaternary,"[C+,Cl+,I+,P+,S+]"
+quaternary nitrogen,"[s,S,c,C,n,N,o,O]~[nX3+,NX3+](~[s,S,c,C,n,N])~[s,S,c,C,n,N]"
+quaternary nitrogen,"[s,S,c,C,n,N,o,O]~[n+,N+](~[s,S,c,C,n,N,o,O])(~[s,S,c,C,n,N,o,O])~[s,S,c,C,n,N,o,O]"
+quaternary nitrogen,[*]=[N+]=[*]
+quaternary nitroxy,C[N+](-[O-])(C)C
+quinone,"[$([o,n]=c1ccc(=[o,n])cc1),$([O,N]=C1C=CC(=[O,N])C=C1),$([O,N]=C1[#6]:,=[#6]C(=[O,N])[#6]:,=[#6]1)]"
+quinone_A(370),"[!#6&!#1]=[#6]1[#6]=,:[#6][#6](=[!#6&!#1])[#6]=,:[#6]1"
+quinone_B(5),c:1:c:c-2:c(:c:c:1)-[#6](-c3cccc4noc-2c34)=[#8]
+quinone_D(2),"[#6]-1(-[#6]=,:[#6]-[#6]=,:[#6]-[#6]-1=[!#6&!#1])=[!#6&!#1]"
+quinone_methide,"[#6;!$([#6](-[N,O,S]))]1=[#6;!$([#6](-[N,O,S]))][#6](=[#6])[#6;!$([#6](-[N,O,S]))]=[#6;!$([#6](-[N,O,S]))][#6]1(=[O,N,S])"
+rhod_sat_A(33),[#7]-1-[#6](=[#16])-[#16]-[#6;X4]-[#6]-1=[#8]
+rhodanine,C(=C)1SC(=S)NC(=O)1
+saponin,O1CCCCC1OC2CCC3CCCCC3C2
+saponine derivative,O1CCCCC1OC2CCC3CCCCC3C2
+secondary_halide_sulfate,"[CH;!$(C=C)][Cl,Br,I,$(O(S(=O)(=O)[!$(N);!$([O&D1])]))]"
+silicon halogen,"[Si][F,Cl,Br,I]"
+squalestatin,C12OCCC(O1)CC2
+steroid_A(2),[#8]=[#6]-4-[#6]-[#6]-[#6]-3-[#6]-2-[#6](=[#8])-[#6]-[#6]-1-[#6]-[#6]-[#6]-[#6]-1-[#6]-2-[#6]-[#6]-[#6]-3=[#6]-4
+stilbene,c1ccccc1C=Cc2ccccc2
+styrene_A(13),[#6]-2-[#6]-c:1:c(:c:c:c:c:1)-[#6](-c:3:c:c:c:c:c-2:3)=[#6]-[#6]
+styrene_B(8),"c:1:c:c-2:c(:c:c:1)-[#6](-c:3:c(-[$([#16;X2]),$([#6;X4])]-2):c:c:[c;!H0,$(c-[#17]),$(c-[#6;X4])](:c:3))=[#6]-[#6]"
+styrene_C(4),c:1:c:c-2:c(:c:c:1)-[#6]-[#16]-c3c(-[#6]-2=[#6])ccs3
+sulf_D2_nitrogen,[S;D2](-[N;!$(N(=C));!$(N(-S(=O)(=O)));!$(N(-C(=O)))])
+sulf_D2_oxygen_D2,[S;D2][O;D2]
+sulf_D3_nitrogen,"[S;D3](-N)(-[c,C])(-[c,C])"
+sulfate ester,"COS(=O)O[C,c]"
+sulfinic acid,"[SX3](=O)[O-,OH]"
+sulfite_sulfate_ester,"[C,c]OS(=O)O[C,c]"
+sulfonate,"COS(=O)(=O)[C,c]"
+sulfonium,[S+;X3;$(S-C);!$(S-[O;D1])]
+sulfonyl_anhydride,"[$(C(=O)),$(S(=O)(=O))][O,S](S(=O)(=O))"
+sulfonyl_halide,"S(=O)(=O)[F,Cl,Br,I]"
+sulfonyl_heteroatom,"[!#6;!#1;!#11;!#19]O(S(=O)(=O)(-[C,c]))"
+sulfur oxygen single bond,[SX2]O
+sulphate,OS(=O)(=O)[O-]
+tertiary_halide_sulfate,"[C;X4](-[Cl,Br,I,$(O(S(=O)(=O)[!$(N);!$([O&D1])]))])(-[c,C])(-[c,C])(-[c,C])"
+thiaz_ene_A(128),"[#6]-,:1(=,:[#6;!H0,$([#6]-[#6;!H0;!H1]),$([#6]-[#6]=[#8])]-,:[#16]-,:[#6](-,:[#7;!H0,$([#7]-[#6;!H0]),$([#7]-[#6]:[#6])]-,:1)=[#7;!R])-[$([#6](-[#1])-[#1]),$([#6]:[#6])]"
+thiaz_ene_C(11),"[#6]-,:1(=,:[#6](-!@[#6]=[#7])-,:[#16]-,:[#6](-,:[#7]-,:1)=[#8])-[$([F,Cl,Br,I]),$([#7+](:[#6]):[#6])]"
+thiaz_ene_D(8),[#7](-c:1:c:c:c:c:c:1)-c2[n+]c(cs2)-c:3:c:c:c:c:c:3
+thiazole_amine_G(2),c1csc(n1)-[#7]-[#7]-[#16](=[#8])=[#8]
+thio_carbonate_A(15),"[#8]-,:1-,:[#6](-,:[#16]-,:c:2:c-,:1:c:c:c(:c:2)-,:[$([#7]),$([#8])])=[$([#8]),$([#16])]"
+thio_ester_A(5),"[#6]-,:1=,:[#6](-,:[#16]-,:[#6](-,:[#6]=,:[#6]-,:1)=[#16])-,:[#7]"
+thio_hydroxamate,"[S;D2]([$(N(=C)),$(N(-S(=O)(=O))),$(N(-C(=O)))])"
+thio_keto_het(2),[#16]=[#6]-c:1:c:c:c:2:c:c:c:c:n:1:2
+thio_ketone(43),[#6]-[#6](=[#16])-[#6]
+thio_xanthate,[S;!R]-[C;!R](=[S;!R])(-[S;!R])
+thioamide,CC(=S)N
+thiocarbonate,"SC(=O)[O,S]"
+thiocyanate,SC#N
+thioester,SC=O
+thioester,"[S;!R;H0]C(=[S,O;!R])([!O;!S;!N])"
+thioester,"C[O,S;R0][C;R0](=S)"
+thioketone,CC(=S)C
+thiol,[S-]
+thiol,[SH]
+thiol_warhead,NC(C[S;D1])C(O)=O
+thionoester,COC(=S)C
+thiopyrylium,"c1[S,s;+]cccc1"
+thiosulfoxide,"[C,c][S;X3](~O)-S"
+thiourea,NC(=S)N
+tri phosphoric esters,[#6]OP(=O)(*)O[#6].[#6]OP(=O)(*)O[#6].[#6]OP(=O)(*)O[#6]
+triacyloxime,C(=O)N(C(=O))OC(=O)
+triamide,"[$(N(-C(=O))(-C(=O))(-C(=O))),$(n([#6](=O))([#6](=O))([#6](=O)))]"
+triaryl_phosphine_oxide,P(=O)(a)(a)(a)
+trichloromethyl_ketone,[$(C(=O));!$(C-N);!$(C-O);!$(C-S)]C(Cl)(Cl)(Cl)
+triflate,OS(=O)(=O)C(F)(F)F
+triflate,OS(=O)(=O)(C(F)(F)(F))
+trifluoroacetate_ester,C(F)(F)(F)C(=O)O
+trifluoromethyl_ketone,[$(C(=O));!$(C-N);!$(C-O);!$(C-S)]C(F)(F)(F)
+trihalovinyl_heteroatom,"C(-[Cl,Br,I])(-[Cl,Br,I])=C(-[Cl,Br,I])(-[N,O,S])"
+trinitro_aromatic,"[$(a1aaa([$(N(=O)(=O)),$([N+](=O)[O-])])a([$(N(=O)(=O)),$([N+](=O)[O-])])a1([$(N(=O)(=O)),$([N+](=O)[O-])])),$(a1aa([$(N(=O)(=O)),$([N+](=O)[O-])])a([$(N(=O)(=O)),$([N+](=O)[O-])])aa1([$(N(=O)(=O)),$([N+](=O)[O-])])),$(a1a([$(N(=O)(=O)),$([N+](=O)[O-])])aa([$(N(=O)(=O)),$([N+](=O)[O-])])aa1([$(N(=O)(=O)),$([N+](=O)[O-])]))]"
+trinitromethane_derivative,"C([$([N+](=O)[O-]),$(N(=O)=O)])([$([N+](=O)[O-]),$(N(=O)=O)])([$([N+](=O)[O-]),$(N(=O)=O)])"
+triphenyl methylsilyl,"[SiR0,CR0](c1ccccc1)(c2ccccc2)(c3ccccc3)"
+triple bond,C#C
+tris_activated_aryl_ester,"[$(O=[C,S]Oc1a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa1),$(O=[C,S]Oc1a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aaa([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])1),$(O=[C,S]Oc1a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])a1),$(O=[C,S]Oc1a([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),F,$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])1)]"
+trisub_bis_act_olefin,"[CH;!R;!$(C-N)]=C([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])"
+unacceptable atoms,[!#6;!#7;!#8;!#16;!#1;!#3;!#9;!#11;!#12;!#15;!#17;!#19;!#20;!#30;!#35]
+vinyl michael acceptor1,"[#6]-[CH1]=C-C(=O)[#6,#7,#8]"
+vinyl michael acceptor2,"[CH2]=C-C(=O)[#6,#7,#8]"
+vinyl_carbonyl_EWG,"[C;!R]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])=[C;!R]([C;!R](=O))([!$([#8]);!$([#7])])"
