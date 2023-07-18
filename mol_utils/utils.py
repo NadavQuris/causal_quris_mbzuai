@@ -179,3 +179,12 @@ def add_chembl_structural_alerts_column_to_df(df, force: bool = False):
     return add_column_to_df(
         df, "chembl_structural_alerts", get_structural_alerts_from_inchi, force
     )
+
+
+def add_rdkit_fingerprint_column_to_df(df, force: bool = False):
+    def get_rdkit_fingerprint_from_inchi(inchi: str) -> str:
+        mol = Molecule.from_inchi(inchi)
+        fp = Chem.RDKFingerprint(mol.molecule)
+        return fp
+
+    return add_column_to_df(df, "rdkit_fingerprint", get_rdkit_fingerprint_from_inchi)
